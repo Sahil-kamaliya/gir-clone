@@ -4,6 +4,8 @@ import Hero from './components/Hero'
 import Aboutgir from './components/Aboutgir'
 import Historyofgir from './components/Historyofgir'
 
+import TourPackages from './components/TourPackages'
+
 const App = () => {
   return (
     <div>
@@ -11,6 +13,7 @@ const App = () => {
       <Hero />
       <Aboutgir/>
       <Historyofgir/>
+      <TourPackages/>
     </div>
   )
 }
