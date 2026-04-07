@@ -1,16 +1,90 @@
-# React + Vite
+# Gir National Park Website (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive website UI based on Gir National Park, built using React.js and Vite. The main goal of this project is to practice component-based development and create a clean and structured layout.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React.js  
+- Vite  
+- JavaScript (ES6+)  
+- CSS  
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive design for mobile, tablet, and desktop  
+- Clean and simple UI  
+- Reusable React components  
+- Organized project structure  
+- Multiple sections like Hero, About, History, and Tour Packages  
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+gir-clone/
+├── public/
+│   ├── favicon.svg
+│   └── icons.svg
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Aboutgir.jsx
+│   │   ├── Historyofgir.jsx
+│   │   └── TourPackages.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── package-lock.json
+├── eslint.config.js
+└── vite.config.js
+
+## Getting Started
+
+1. Clone the repository:
+git clone https://github.com/Sahil-kamaliya/gir-clone.git
+
+2. Navigate to the project folder:
+cd gir-clone
+
+3. Install dependencies:
+npm install
+
+4. Run the project:
+npm run dev
+
+5. Open in browser:
+http://localhost:5173
+
+## Sections Included
+
+- Navbar  
+- Hero Section  
+- About Gir  
+- History of Gir  
+- Tour Packages  
+
+## What I Learned
+
+- Creating reusable components in React  
+- Structuring a React project properly  
+- Managing assets and components  
+- Building responsive layouts  
+- Using Vite for development  
+
+## Future Improvements
+
+- Add animations (Framer Motion or GSAP)  
+- Improve UI design  
+- Add booking functionality  
+- Connect backend (Node.js and MongoDB)  
+- Deploy the project  
+
+## Author
+
+Sahil Kamaliya  
+
+GitHub: https://github.com/Sahil-kamaliya  
+LinkedIn: https://www.linkedin.com/in/sahil-kamaliya-417542343
